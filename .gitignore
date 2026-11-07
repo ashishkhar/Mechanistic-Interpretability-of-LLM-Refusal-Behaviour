@@ -1,0 +1,19 @@
+# Only the explorer, its code, the README figures and the project files are tracked; everything else here stays local.
+/*
+!/.gitignore
+!/README.md
+!/pyproject.toml
+!/uv.lock
+!/.python-version
+!/refusal_qwen.py
+!/explore.html
+!/prompts.json
+!/results.json
+!/images/
+
+# Python-generated files
+__pycache__/
+*.py[oc]
+
+# macOS
+.DS_Store

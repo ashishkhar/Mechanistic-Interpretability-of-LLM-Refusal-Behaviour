@@ -1,0 +1,15 @@
+[project]
+name = "model-alignment"
+version = "0.1.0"
+description = "Education-only explorer and code for how Qwen3.5-0.8B represents refusal, and two ways to change it"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "matplotlib>=3.11.2",
+    "pillow>=13.0.0",
+    "streamlit>=1.66.1",
+    "torch>=2.15.0",
+    "torchvision>=0.29.2",
+    "transformers>=5.22.1",
+]
